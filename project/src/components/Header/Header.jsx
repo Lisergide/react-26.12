@@ -21,12 +21,10 @@ class FixedNavbarExample extends PureComponent {
 
     render() {
         const bgDark = { backgroundColor: '#1C2331' }
-        const container = { height: 1300 }
         return (
             <div>
                 <Router>
                     <header>
-
                         <MDBNavbar style={bgDark} dark expand="md" scrolling fixed="top">
                             <MDBContainer>
                                 <MDBNavbarBrand href="/">
@@ -68,12 +66,6 @@ class FixedNavbarExample extends PureComponent {
                         </MDBNavbar>
                     </header>
                 </Router>
-                <MDBContainer style={container} className="text-center mt-5 pt-5">
-                    <h2>This Navbar is fixed</h2>
-                    <h5>It will always stay visible on the top, even when you scroll down</h5>
-                    <br />
-                    <p>Full page intro with background image will be always displayed in full screen mode, regardless of device</p>
-                </MDBContainer>
             </div>
         );
     }

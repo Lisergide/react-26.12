@@ -11,7 +11,9 @@ const CardSection = () => {
             <Col xl="4" md="6" className="mb-r">
                 <Card className="cascading-admin-card">
                     <div className="admin-up">
-                        <Fa icon="server" className="success-color" />
+                        <Fa className="success-color">
+                            <FontAwesomeIcon icon="server" />
+                        </Fa>
                         <div className="data">
                             <p>Used_VCPU/VCPU</p>
                             <h4>
@@ -53,7 +55,9 @@ const CardSection = () => {
             <Col xl="4" md="6" className="mb-r">
                 <Card className="cascading-admin-card">
                     <div className="admin-up">
-                        <Fa icon="hdd-o" className="red accent-2" />
+                        <Fa className="red accent-2">
+                            <FontAwesomeIcon icon="hdd" />
+                        </Fa>
                         <div className="data">
                             <p>Used_DISKGB</p>
                             <h4>

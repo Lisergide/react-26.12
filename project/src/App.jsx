@@ -4,9 +4,12 @@ import Main from 'components/Main';
 import FixedNavbarExample from 'components/Header';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faMemory } from '@fortawesome/free-solid-svg-icons'
+import { faServer } from '@fortawesome/free-solid-svg-icons'
+import { faHdd } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Footer from 'components/Footer';
 
-library.add(faMemory)
+library.add(faMemory, faServer, faHdd)
 
 export default class App extends PureComponent {
     render() {
@@ -18,6 +21,7 @@ export default class App extends PureComponent {
                 <main className="main">
                     <Main />
                 </main>
+                    <Footer />
             </div>
         );
     }

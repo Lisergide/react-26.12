@@ -23,7 +23,7 @@ export default class ${componentName} extends Component {
 
     render() {
         return (
-           < div className = "${componentName}"></div>
+           <div className = "${componentName}"></div>
         )
     }
 }
